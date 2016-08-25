@@ -23,7 +23,8 @@ var Navigation = () => {
       <div className='top-bar-right'>
         <ul className='menu'>
           <li className='menu-text'>
-            Created by Emmanuel Jucaban
+            <span>Created by </span>
+            <a href='http://www.ejukeaban.com' >Emmanuel Jucaban</a>
           </li>
         </ul>
       </div>
