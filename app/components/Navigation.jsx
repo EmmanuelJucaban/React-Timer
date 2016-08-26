@@ -27,7 +27,7 @@ var Navigation = () => {
         </ul>
       </div>
     </div>
-  )
+  );
 }
 
 module.exports = Navigation;
