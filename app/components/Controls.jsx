@@ -6,9 +6,6 @@ var Controls = React.createClass({
     onStatusChange: React.PropTypes.func.isRequired
   },
 
-  componentWillReceiveProps: function(nextProps) {
-    console.log(nextProps.countdownStatus);
-  },
 
   onStatusChange: function(newStatus){
     return () => {
